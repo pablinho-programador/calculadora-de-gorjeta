@@ -40,6 +40,7 @@ function receberPorcentagem(evento) {
 
         if(botao.value === evento.target.value){
             botao.classList.add("botao-ativo")
+            gorjetaInput.value=""
         }
     })
 
