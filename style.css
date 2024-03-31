@@ -74,7 +74,7 @@ main {
 
 .conta input::placeholder, 
 .pessoas input::placeholder {
-        color: var(--green-300);
+    color: var(--green-300);
 }
 
 .conta:has(input:focus) div,
@@ -190,6 +190,7 @@ main {
     text-transform: uppercase;
     padding-block: 0.5rem;
     font-size: 1.25rem;
+    outline: none;
 }
 
 .conta input::-webkit-inner-spin-button,
